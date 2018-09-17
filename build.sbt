@@ -10,7 +10,7 @@ version := "0.2.3-SNAPSHOT"
 
 scalaVersion := "2.11.8"
 
-crossScalaVersions := Seq("2.10.5", "2.11.8")
+// crossScalaVersions := Seq("2.10.5", "2.11.8")
 
 libraryDependencies ++= List(
   "com.twitter" %% "finagle-core" % "6.43.0",
