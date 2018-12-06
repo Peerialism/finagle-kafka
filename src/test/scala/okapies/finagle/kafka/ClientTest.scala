@@ -10,7 +10,7 @@ import java.nio.charset.Charset
 
 import com.twitter.util.Await
 import _root_.kafka.admin.AdminUtils
-import _root_.kafka.utils.{Utils, TestUtils, ZKStringSerializer}
+import _root_.kafka.utils.{TestUtils, ZKStringSerializer}
 import _root_.kafka.server.{KafkaConfig, KafkaServer}
 import org.apache.curator.test.TestingServer
 import org.jboss.netty.buffer.ChannelBuffers
